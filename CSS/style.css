@@ -1,0 +1,714 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap');                 
+*{
+    font-family: 'raleway';
+    font-weight: normal;
+}
+
+html main{
+    margin: 30px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+header{
+    margin: 10px 50px 10px 50px;
+}
+body footer{
+    /*bottom: 0px;*/
+    height: 100%;
+}
+main ul a{
+    color: black;
+    text-decoration: none;
+}
+
+/*--------------------------HEADER--------------------------*/
+
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav ul{
+    display: flex;
+    list-style: none;
+}
+header nav li{
+    padding: 2rem;
+    border-top: 3px solid transparent;
+}
+header nav li:hover{
+    border-top: 3px solid #0065FC;
+    padding-top: 30px;
+}
+header nav a{
+    color: black;
+    text-decoration: none;
+}
+.booki{
+    height: 40px;
+}
+.menu-hebergements{
+    margin-right: 30px;
+}
+
+/*--------------------------HEADER--------------------------*/
+
+
+/*---------------------------MAIN---------------------------*/
+
+
+        /*-------PREMIERE SECTION-------*/
+.recherche{
+    width: 100%;
+}
+
+.fa-location-dot{
+    height: 20px;
+    background-color: #F2F2F2;
+    padding: 13px;
+    border-right: 0px;
+    margin-right: 0px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    vertical-align: middle;
+}
+.rechercher{
+    width: 30%;
+    height: 20px;
+    padding: 10px;
+    border: 0px;
+    margin: 0;
+}
+.bouton{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 0px;
+    background-color: #0065FC;
+    color: white;
+    width: 15%;
+    height: 40px;
+    border-left: 0px;
+    margin-left: 0px;
+}
+.fa-magnifying-glass{
+    visibility: hidden;    
+}
+.filtres{
+    display: inline-flex;
+    align-items: center;
+}
+.liste{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+.economique{
+    display: inline-flex;
+    border-color: #F2F2F2;
+    border-style: solid; 
+    padding: 1px;
+    border-radius: 50px;
+    line-height: 0.3%;
+    border-width: 2.5px;
+    padding-right: 17px;
+    margin-right: 10px;
+    white-space: normal;
+}
+.economique:hover{
+    box-shadow: 10px 10px 10px #F2F2F2;
+}
+.fa-money-bill-wave{
+    color: #0065FC;
+    height: 20px;
+    width: 16.5px;
+    background-color: #DEEBFF;
+    padding: 10px;
+    border-radius: 100px;
+    margin-left: -2px;
+    margin-top: -1.5px;
+    margin-right: 6px;
+    display: inline-flex;
+    align-items: baseline;    
+}
+.fa-child{
+    color: #0065FC;
+    height: 20px;
+    width: 16.5px;
+    background-color: #DEEBFF;
+    padding: 10px;
+    border-radius: 100px;
+    margin-left: -2px;
+    margin-top: -1.5px;
+    margin-right: 6px;
+    display: inline-flex;
+    align-items: baseline; 
+}
+.fa-heart{
+    color: #0065FC;
+    height: 20px;
+    width: 16.5px;
+    background-color: #DEEBFF;
+    padding: 10px;
+    border-radius: 100px;
+    margin-left: -2px;
+    margin-top: -1.5px;
+    margin-right: 6px;
+    display: inline-flex;
+    align-items: baseline; 
+}
+.fa-dog{
+    color: #0065FC;
+    height: 20px;
+    width: 16.5px;
+    background-color: #DEEBFF;
+    padding: 10px;
+    border-radius: 100px;
+    margin-left: -2px;
+    margin-top: -1.5px;
+    margin-right: 6px;
+    display: inline-flex;
+    align-items: baseline; 
+}
+.petiteinfo{
+    display: flex;
+    align-items: center;
+}
+.fa-info{
+    color: #0065FC;
+    width: 12px;
+    border: solid;
+    border-color: #f2f2f2;
+    border-radius: 100px;
+    padding: 5px;
+}
+        /*-------PREMIERE SECTION-------*/
+
+
+        /*-------DEUXIEME SECTION-------*/
+.Marseille{
+    display: flex;
+    height: 100%;
+}
+.mrs{
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    margin-right: 50px;
+    padding-right: 20px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    width: 75%;
+    height: 100%;
+}
+.hebergements{
+    margin-left: 30px;
+}
+.autreh{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+.loc{
+    background-color: white;
+    border-radius: 20px;
+    margin: 5px;
+    padding: 2px;
+    width: 30%;
+    box-shadow: 5px 5px 5px #f2f2f2;
+}
+.loc img{
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.nom{
+    padding: 0px;
+    margin: 0px;
+    margin-left: 10px;
+}
+.prix{
+    margin: 3px;
+    padding-left: 8px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+span{
+    font-weight: bolder;
+}
+.etoile{
+    padding-left: 10px;
+    margin-bottom: 5px;
+}
+.fa-star{
+    color: #0065FC;
+    resize : 5px;
+}
+.fa-regular .fa-star{
+    color: #F2F2F2;
+    resize : 5px;
+}
+.plus{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    
+}
+.plus a{
+    color: black;
+    text-decoration: none;
+}
+.mars{
+    display: flex;
+    flex-direction: column;
+    background-color: #f2f2f2F2;
+    border-radius: 20px;
+    width: 25%;
+    height: 100%;
+    margin-right: 10px;
+    padding-right: 20px;
+    margin-left: 1px;
+    padding-left: 1px;
+}
+.croiss{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+.hebergement{
+    font-size: 20px;
+    margin: 10px;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+.fa-chart-line{
+
+    height: 20px;
+}
+.autre{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 100%;
+}
+.populaire{
+    display: flex;
+    flex-direction: row;
+    height: 150px;;
+    width: 100%;
+    background-color: white;
+    border-radius: 20px;
+    margin-right: 30px;
+    margin-bottom: 27px;
+    padding: 2px;
+    position: relative;
+}
+.populaire img{
+    width: 40%;
+    object-fit: cover;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    margin: 3px;
+}
+.nompop{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.etoiles{
+    padding-left: 10px;
+    display: flex;
+    position: absolute;
+    bottom: 10px;
+}
+.etoiless{
+    padding-left: 13px;
+    padding-top: 48px;
+}
+        /*-------DEUXIEME SECTION-------*/
+
+
+        /*-------TROISIEME SECTION-------*/
+.troisieme{
+    width: 100%;
+ }
+.activite{
+    display: flex;
+    justify-content: space-between;
+    height: 500px;
+    align-items: stretch;
+}
+.activite h3{
+    padding: 5%;
+    margin: 0px;
+}
+main div a{
+    color: black;
+    text-decoration: none;
+}
+.act{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 25px;
+    width: 20%;
+    border: #F2F2F2;
+    border-style: solid;
+    border-width: 0.2px;
+    margin: 0px;
+    margin-bottom: 20px;
+}
+.act:hover{
+    box-shadow: 5px 5px 5px #F2F2F2;
+}
+.act img{
+    width: 100%;
+    height: calc(100%);
+    object-fit: cover;
+    border-radius: 25px 25px 0px 0px;
+
+}
+.superpose{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    width: 20%;
+}
+.superpose div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 47.5%;
+    border: #F2F2F2;
+    border-style: solid;
+    border-width: 0.2px;
+}
+.superpose img{
+    width: 100%;
+    height: calc(100% - 67px);
+    object-fit: cover;
+    border-radius: 25px 25px 0px 0px;
+}
+.superpose div:hover{
+    box-shadow: 5px 5px 5px #F2F2F2;
+}
+        /*-------TROISIEME SECTION-------*/
+
+
+/*---------------------------MAIN---------------------------*/
+
+
+/*--------------------------FOOTER--------------------------*/
+
+
+.pied{
+background-color: #F2F2F2 ;
+background-position: 100%;
+margin:  0px  ;
+padding :  50px ;
+box-sizing: border-box;
+}
+.bas{
+    list-style: none;
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+}
+.colonne{
+    width: 30%;
+}
+.foot{
+    list-style: none;
+    padding: 0px;
+}
+
+.foot li{
+    line-height: 35px;
+    font-size: 13px;
+}
+.foot li a{
+    color: black;
+    text-decoration: none;
+}
+
+/*--------------------------FOOTER--------------------------*/
+
+
+
+
+
+@media screen and (max-width: 768px){
+    
+    body{
+        padding: 0px;
+    }
+    main{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    header{
+        flex-direction: column;
+        width: 100%;
+        margin-left: 0;
+    }
+    header nav{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .booki{
+        margin-top: 2px;
+        width: 40%;
+        height: 40%;
+    } 
+    header nav ul{        
+        width: 100%;
+        margin: 0px -20px;
+        padding: 0;
+        border-bottom: #F2F2F2 solid 2px;
+    }
+    .menu-hebergements{  
+        width: 100%;
+        text-align: center;
+        color: black;
+        text-decoration: none;
+        margin-right: 0;
+    }
+    header nav li:hover{
+        visibility: hidden;
+    }
+    header nav li:active{
+        border-bottom: 2px solid #0065FC;
+        border-top: 0px;
+        border-width: 60%;
+    }
+
+    
+
+    .recherche{
+        display: flex;
+        justify-content: space-around;
+        height: 100%;
+        width: 100%;
+        margin: 0;
+    }
+    .bouton{
+        display: none;
+    }
+    .fa-location-dot{
+        display: block;
+        border-radius: 10px;
+        padding: 15px;
+        padding-right: 20px;
+        margin-right: 0;
+    }
+    .rechercher{
+        width: 85%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .fa-magnifying-glass{
+        visibility: visible;
+        border-radius: 10px;
+        background-color: #0065FC;
+        color: white;
+        width: 40px;
+        height: 40px;
+        padding: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0;
+    }
+    
+
+    .filtres{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .liste{
+        padding-left: 0%;
+    }
+    .economique{
+        margin-bottom: 2px;
+    }
+    .intro{
+        font-size: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+    .Marseille{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .autre{
+        flex-direction: column;
+        padding-left: 10px;
+    }
+    .hebergement{
+        padding-left: 3px;
+    }
+    .autre li{
+        width: 100%;
+    }
+    .mrs{
+        order: 2;
+        width: 100%;
+        height: 100%;
+    }
+    .hebergements{
+        padding-left: 2px;
+    }
+    .plus{
+        padding-left: 10px;
+    }
+    .mars{
+        order: 1;
+        width: 100%;
+        height: 100%;
+        margin-bottom: 20px;
+    }
+   .autre{
+       justify-content: center;
+   }
+   .autreh{
+       justify-content: center;
+       display: flex;
+       flex-wrap: wrap;
+       padding-left: 20px;
+   }
+   .loc{
+       width: 100%;
+       height: 250px;
+       display: flex;
+       flex-wrap: wrap;
+   }
+   .loc img{
+       width: 100%;
+       object-fit: cover;
+   }
+   .loc a{
+       width: 100%;
+   }
+    .nom{
+        font-size: 100%;
+    }
+
+
+    .troisieme{
+        margin-bottom: 270%;
+    }
+    .activite{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 10px;
+        padding-left: 5px;
+    }
+    .act{
+        width: 100%;
+        height: 70%;
+        box-shadow: 5px 5px 5px #F2F2F2;
+    }
+    .act h3{
+        padding-left: 15px;
+        padding-top: 20px;
+    }
+    .act img{
+        height: 85%;
+    }
+    .superpose{
+        width: 100%;
+        height: 155%;
+    }
+    .superpose div{
+        box-shadow: 5px 5px 5px #F2F2F2;
+    }
+    .superpose h3{
+        padding-left: 15px;
+        padding-top: 20px;
+    }
+
+    .bas{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        padding: 5% 2%;
+    }
+
+}
+
+@media screen and (min-width: 769px)and (max-width: 992px){
+    .Marseille{
+    display: flex;
+    flex-direction: column;
+    }
+    .mrs{
+        order: 2;
+        width: 100%;
+    }
+    .hebergements{
+        padding-left: 20px;
+    }
+    .autreh{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .loc{
+        width: 40%;
+        height: 300px;
+    }
+    .loc img{
+        width: 100%;
+        object-fit: cover;
+    }
+    .plus{
+        padding-left: 20px;
+    }
+    .mars{
+        margin-bottom: 20px;
+        order: 1;
+        width: 100%;
+        height: 100%;
+    }
+    
+
+    .troisieme{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin-bottom: 300px;
+    }
+    .activite{
+        display: flex;
+        flex-wrap: wrap;
+        border-radius: 20px;
+        justify-content: space-around;
+    }
+    .act{
+        width: 35%;
+        order: 1;
+        padding-bottom: 0;
+    } 
+    .superpose{
+        width: 35%;
+        order: 2;
+        margin-bottom: 10px;
+    }
+}
